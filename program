@@ -1,0 +1,12 @@
+def A(n):
+    if n<=0:
+        return 
+    print("smily",n)
+    B(n-1)
+def B(n):
+    if n<=0:
+        return
+    print("dasari",n)
+    A(n-1)
+num=int(input("enter the number"))
+A(num)
